@@ -1,0 +1,84 @@
+{
+    "additional-repositories": [
+        "multilib"
+    ],
+    "archinstall-language": "English",
+    "audio_config": {
+        "audio": "pulseaudio"
+    },
+    "bootloader": "Grub",
+    "config_version": "3.0.2",
+    "disk_config": {
+        "config_type": "pre_mounted_config",
+        "mountpoint": "/mnt/archinstall"
+    },
+    "disk_encryption": null,
+    "hostname": "bouanto-desktop",
+    "kernels": [
+        "linux"
+    ],
+    "locale_config": {
+        "kb_layout": "fr-bepo",
+        "sys_enc": "UTF-8",
+        "sys_lang": "en_CA.UTF-8"
+    },
+    "mirror_config": {
+        "custom_mirrors": [],
+        "mirror_regions": {
+            "Canada": [
+                "http://mirror.csclub.uwaterloo.ca/archlinux/$repo/os/$arch",
+                "https://mirror.csclub.uwaterloo.ca/archlinux/$repo/os/$arch",
+                "http://mirror.its.dal.ca/archlinux/$repo/os/$arch",
+                "http://archlinux.mirror.rafal.ca/$repo/os/$arch",
+                "http://muug.ca/mirror/archlinux/$repo/os/$arch",
+                "https://muug.ca/mirror/archlinux/$repo/os/$arch",
+                "http://ca.mirrors.cicku.me/archlinux/$repo/os/$arch",
+                "https://ca.mirrors.cicku.me/archlinux/$repo/os/$arch",
+                "http://mirror.scd31.com/arch/$repo/os/$arch",
+                "https://mirror.scd31.com/arch/$repo/os/$arch",
+                "http://mirror2.evolution-host.com/archlinux/$repo/os/$arch",
+                "https://mirror2.evolution-host.com/archlinux/$repo/os/$arch",
+                "http://mirror.0xem.ma/arch/$repo/os/$arch",
+                "https://mirror.0xem.ma/arch/$repo/os/$arch",
+                "http://mirror.xenyth.net/archlinux/$repo/os/$arch",
+                "https://mirror.xenyth.net/archlinux/$repo/os/$arch",
+                "http://mirror.quantum5.ca/archlinux/$repo/os/$arch",
+                "https://mirror.quantum5.ca/archlinux/$repo/os/$arch",
+                "https://mirror.qctronics.com/archlinux/$repo/os/$arch",
+                "http://mirror.cpsc.ucalgary.ca/mirror/archlinux.org/$repo/os/$arch",
+                "https://mirror.cpsc.ucalgary.ca/mirror/archlinux.org/$repo/os/$arch",
+                "http://mirrors.pablonara.com/archlinux/$repo/os/$arch",
+                "https://mirrors.pablonara.com/archlinux/$repo/os/$arch",
+                "https://upstream-1.pablonara.com/archlinux/$repo/os/$arch",
+                "http://mirror.yuri.so/arch/$repo/os/$arch",
+                "https://mirror.yuri.so/arch/$repo/os/$arch"
+            ]
+        }
+    },
+    "network_config": {
+        "type": "nm"
+    },
+    "ntp": true,
+    "packages": [
+        "7zip",
+        "alacritty",
+        "base-devel",
+        "firefox",
+        "fish",
+        "git",
+        "i3status-rust",
+        "i3-wm",
+        "neovim",
+        "rofi",
+        "sddm",
+        "stow",
+        "zoxide"
+    ],
+    "parallel downloads": 10,
+    "profile_config": null,
+    "save_config": null,
+    "swap": false,
+    "timezone": "America/Montreal",
+    "uki": false,
+    "version": "3.0.2"
+}
