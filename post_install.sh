@@ -40,7 +40,7 @@ fi
 
 sudo systemctl enable sddm.service
 
-git clone git@github.com:antoyo/.dotfiles.git
+git clone https://github.com/antoyo/.dotfiles
 pushd .dotfiles
 apps=(alacritty directories fish gdb git gnupg gopass gtk-printers i3 i3status-rust less mimeapps nvim paru psql rofi yazi zathura)
 # TODO: transmission?
