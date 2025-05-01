@@ -26,7 +26,7 @@ while [[ "$#" -gt 0 ]]; do
     shift
 done
 
-sudo pacman -S --noconfirm 7zip asciidoctor-pdf alacritty arandr base-devel bat cmake cups discord duf dust fbreader fd feh firefox firefox-i18n-fr fish fzf gdb git-delta git-lfs gopass gopass-jsonapi gparted gst-libav gst-plugins-bad gst-plugins-base gst-plugins-good gst-plugins-ugly gstreamer gurk htop i3lock i3status-rust i3-wm less liferea man-db mpv neovim network-manager-applet nheko noto-fonts-emoji ouch p7zip pavucontrol pcmanfm pinentry plocate pulsemixer python-pynvim quassel-monolithic-qt ripgrep rofi rustup scrot sddm steam strace stow systray-x-common thunderbird thunderbird-i18n-fr translate-shell tree ttf-dejavu udiskie udisks2 util-linux xclip xdg-utils xdotool xorg-xsetroot xorg-xrandr yazi zathura zathura-pdf-poppler yt-dlp zoxide
+sudo pacman -S --noconfirm 7zip asciidoctor-pdf alacritty arandr base-devel bat cargo-release cmake cups discord duf dust fbreader fd feh firefox firefox-i18n-fr fish fzf gdb git-delta git-lfs gopass gopass-jsonapi gparted gst-libav gst-plugins-bad gst-plugins-base gst-plugins-good gst-plugins-ugly gstreamer gurk htop i3lock i3status-rust i3-wm less liferea man-db mpv neovim network-manager-applet nheko noto-fonts-emoji ouch p7zip pavucontrol pcmanfm pinentry plocate pulsemixer python-pynvim quassel-monolithic-qt ripgrep rofi rustup scrot sddm steam strace stow systray-x-common thunderbird thunderbird-i18n-fr translate-shell tree ttf-dejavu udiskie udisks2 util-linux wget xclip xdg-utils xdotool xorg-xsetroot xorg-xrandr yt-dlp yazi zathura zathura-pdf-poppler zoxide
 #sudo pacman -S --noconfirm pidgin # TODO: remove?
 if $dev
 then
